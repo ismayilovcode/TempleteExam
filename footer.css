@@ -1,0 +1,19 @@
+footer > div.top {
+  color: #ffffff;
+  background-color: #666666;
+  font-size: 21px;
+  padding: 45px;
+  padding-left: 12px;
+}
+
+footer > div.bottom {
+  color: #ffffff;
+  background-color: #333333;
+  font-size: 13px;
+  padding: 6px;
+  padding-left: 8px;
+}
+
+footer > div.bottom > p > a {
+  color: #ffffff;
+}

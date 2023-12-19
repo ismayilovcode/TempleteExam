@@ -1,0 +1,56 @@
+main.navigation {
+  padding: 20px;
+}
+
+main.navigation > article > section.section1 > div.text > h1 {
+  color: #009688;
+  font-size: 36px;
+}
+
+main.navigation > article > section.section2 > div.ads > div.smallad {
+  padding: 32px 128px;
+}
+
+main.navigation > article > section.section2 > div.ads > div.bigad {
+  padding: 64px 128px;
+}
+
+main.navigation > article > section.section2 > div.ads > div.smallad,
+main.navigation > article > section.section2 > div.ads > div.bigad {
+  border: 1px solid #cccccc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 60px;
+}
+
+main.navigation > nav.page {
+  display: flex;
+  justify-content: center;
+}
+
+main.navigation > nav.page > a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 10px;
+}
+
+main.navigation > nav.page > a:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+main.navigation > nav.page > a.active {
+  background-color: black;
+  color: #ffffff;
+}
+
+main.navigation > nav.page > a.active:hover {
+  background-color: #cccccc;
+  color: black;
+}
